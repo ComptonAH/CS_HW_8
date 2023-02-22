@@ -7,9 +7,7 @@
         for (int j = 0; j < Array.GetLength(1); j++)
         {
             Array[i, j] = new Random().Next(10);
-            Console.Write($"{Array[i, j]} ");
         }
-        Console.WriteLine();
     }
     return Array;
 }
